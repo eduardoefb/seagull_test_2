@@ -295,7 +295,7 @@
         <setfield name="flags" value="192"></setfield>
         <setfield name="Vendor-ID" value="10415"></setfield>        
       </define>     
-      <define name="MIP-Home-Host" type="OctetString">
+      <define name="MIP-Home-Host" type="Grouped">
         <setfield name="avp-code" value="348"></setfield>
         <setfield name="flags" value="192"></setfield>
         <setfield name="Vendor-ID" value="10415"></setfield>
