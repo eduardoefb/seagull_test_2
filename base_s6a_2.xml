@@ -289,17 +289,15 @@
         <setfield name="avp-code" value="1401"></setfield>
         <setfield name="flags" value="192"></setfield>
         <setfield name="Vendor-ID" value="10415"></setfield>
-      </define>
+      </define> 
       <define name="MIP6-Agent-Info" type="Grouped">
-        <setfield name="avp-code" value="486"></setfiel>
-        <setfield name="flags" value="192"></setfield>
-        <setfield name="Vendor-ID" value="10415"></setfield>        
-      </define>     
-      <define name="MIP-Home-Host" type="Grouped">
+        <setfield name="avp-code" value="486"></setfield>
+        <setfield name="flags" value="64"></setfield>        
+      </define>                  
+      <define name="MIP-Home-Agent-Host" type="Grouped">
         <setfield name="avp-code" value="348"></setfield>
-        <setfield name="flags" value="192"></setfield>
-        <setfield name="Vendor-ID" value="10415"></setfield>
-      </define>
+        <setfield name="flags" value="64"></setfield>        
+      </define>       
       <define name="IMEI" type="OctetString">
         <setfield name="avp-code" value="1402"></setfield>
         <setfield name="flags" value="192"></setfield>
