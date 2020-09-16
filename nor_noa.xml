@@ -72,10 +72,10 @@
         <avp name="Destination-Realm" value="cloud.int"></avp>        
         <avp name="User-Name" value="724316925272100"></avp>
         <avp name="MIP6-Agent-Info">
-			<avp name="MIP-Home-Agent-Host">
-               <avp name="Destination-Host" value="pgw.cloud.int"></avp>
-               <avp name="Destination-Realm" value="cloud.int"></avp>  				
-			</avp>
+              <avp name="MIP-Home-Agent-Host">
+                    <avp name="Destination-Host" value="pgw.cloud.int"></avp>
+                    <avp name="Destination-Realm" value="cloud.int"></avp>  				
+              </avp>
         </avp>        
         <avp name="UE-SRVCC-Capability" value="1"></avp>
         <avp name="Terminal-Information">
